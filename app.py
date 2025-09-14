@@ -214,3 +214,8 @@ with st.expander("Top Campaigns"):
                      color_discrete_sequence=['#4C78A8','#54A24B','#F58518'],
                      title="Top 10 Campaigns by Attributed Revenue")
     st.plotly_chart(fig_top, use_container_width=True)
+
+
+from pathlib import Path
+
+DATA_DIR = Path(__file__).parent / "data"
